@@ -10,7 +10,27 @@ class HomePage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('NEWS & SERVICES'),
+        title: const Column(
+          crossAxisAlignment: CrossAxisAlignment.start, // Align text to the start
+          children: [
+            Text(
+              'NewsSphere',
+              style: TextStyle(
+                fontWeight: FontWeight.bold, // Bold for emphasis
+                fontSize: 30,                // Larger font size for the title
+                color: Colors.black,          // Black color for good contrast
+              ),
+            ),
+            Text(
+              'Your One-Stop Hub for News, Weather, and Answers!',
+              style: TextStyle(
+                fontSize: 16,                // Smaller font size for the caption
+                color: Colors.black54,        // Use a slightly faded color for contrast
+                fontStyle: FontStyle.italic,  // Italic for a creative touch
+              ),
+            ),
+          ],
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
