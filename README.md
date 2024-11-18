@@ -12,13 +12,13 @@
 </p>
 
 ## FEATURES🚀
-- News Headline Section📰
+- **News Headline Section**📰
   - Stay updated with the latest news headlines.
   - Integrated using an API key for fetching real-time news.
-- Weather Update Section☀🌧
+- **Weather Update Section**☀🌧
   - Get accurate and up-to-date weather updates for your location.
   - Utilizes the *OpenWeather AP*I for current weather data.
-- Chat with the AI🤖
+- **Chat with the AI**🤖
   - Ask questions on any topic and get prompt responses.
   - Powered by *Gemini API*, providing an intelligent and interactive chatbot experience.
   
